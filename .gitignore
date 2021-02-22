@@ -1,0 +1,10 @@
+venv
+.venv
+*.egg-info
+*.pyc
+.idea
+.vscode
+*.code-workspace
+reports
+__pycache__
+.pytest_cache

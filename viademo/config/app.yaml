@@ -1,0 +1,12 @@
+datasource: 
+  domain: "data.cityofnewyork.us"
+  limit: 500000
+  datasets: 
+    - "dpec-ucu7"
+    - "p32s-yqxq"
+snowflake:
+  account: "uga68883"
+  warehouse: "COMPUTE_WH"
+  database: "viademo"
+  schema: "dsirakov"
+  tablename: "tlc_applications"
