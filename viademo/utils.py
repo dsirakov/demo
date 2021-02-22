@@ -64,7 +64,7 @@ def get_data(datasource, status_file):
         results = client.get(ds, limit=limit, where=f"{api_fieldname} >= '{latest_sync}'")
 
         for item in results:
-            #Sync filed names
+            #Sync field names
             if ds == 'dpec-ucu7':
                 item['last_updated'] = item.pop('lastupdate')
 
